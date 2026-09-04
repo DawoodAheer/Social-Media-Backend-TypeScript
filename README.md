@@ -1,100 +1,192 @@
 Social Media Backend API
 
-A RESTful Social Media Backend built with Node.js, Express.js, TypeScript, MongoDB, and Mongoose. It provides authentication, posts, likes, comments, shares, admin controls, logging, database seeding, and migration support.
+A complete Social Media Backend API built with Node.js, Express.js, TypeScript, MongoDB, and Mongoose. The project provides authentication, posts, likes, comments, shares, admin management, role-based access control, logging, database seeding, migration, and API testing.
 
 Tech Stack
 
-Node.js + Express.js
+Node.js – Backend runtime
 
-TypeScript
+Express.js – REST API and routing
 
-MongoDB + Mongoose
+TypeScript – Type-safe backend development
 
-JWT Authentication
+MongoDB – Database
 
-bcrypt Password Hashing
+Mongoose – MongoDB ODM
 
-Postman for API Testing
+JWT – Authentication
 
-MongoDB Compass for Database Checking
+bcrypt – Password hashing
 
-Git & GitHub
+Postman – API testing
 
-Features
+MongoDB Compass – Database verification
 
-User & Authentication
+Git & GitHub – Version control and project hosting
+
+Main Features
+
+1. User Authentication
 
 User registration and login
 
-Password hashing with bcrypt
+Passwords stored using bcrypt hashing
 
-JWT-based authentication
+JWT token generated after successful login
 
-JWT contains id, email, and role
+JWT contains user ID, email, and role
 
-Token expiry: 50 minutes
+Token expiry is set to 50 minutes
 
-Protected routes through authentication middleware
+Protected APIs require a Bearer token
 
-Posts
+2. Posts
 
-Create, read, update and delete posts
+Create a new post
 
-Post fields include title, description, image and location
+Get posts
 
-Authenticated user's ID is taken from req.userId
+Update posts
 
-Likes
+Delete posts
 
-Like and unlike posts
+Post supports title, description, image, and location
 
-Duplicate likes from the same user are prevented
+Authenticated user's ID is stored with the post
+
+3. Likes
+
+Like a post
+
+Unlike a post
+
+One user cannot like the same post twice
 
 Multiple users can like the same post
 
-Like count is maintained
+Total like count is maintained
 
-Comments
+4. Comments
 
 Add multiple comments to a post
 
+Store comment author, text, and creation time
+
 Delete comments
 
-Store comment author, text and creation time
+Total comment count is maintained
 
-Comment count is maintained
+5. Shares
 
-Shares
+Share posts using a dedicated Share Controller and Share Router
 
-Share posts through a dedicated Share controller and router
+Multiple shares can be recorded
 
-Admin & RBAC
+Admin & Role-Based Access Control
 
-The project has two roles:
+The project supports two roles:
 
 user
+
 admin
 
-Admin routes are protected by both authentication and authorization middleware.
+Admin APIs are protected by both Authentication Middleware and Authorization Middleware.
 
-DELETE /admin/userdeleted/:userId
-DELETE /admin/postdeleted/:postId
-DELETE /admin/commentdeleted/:postId/:commentId
-GET    /admin/getuser
-GET    /admin/getpost
+Admin Routes
 
-Only users with role: "admin" can access these routes.
+DELETE /admin/userdeleted/:userId — Delete a user
+
+DELETE /admin/postdeleted/:postId — Delete a post
+
+DELETE /admin/commentdeleted/:postId/:commentId — Delete a comment
+
+GET /admin/getuser — Get users
+
+GET /admin/getpost — Get posts
+
+Only a logged-in user whose role is admin can access these routes.
+
+Authentication Flow
+
+Register
+   ↓
+Password hashed with bcrypt
+   ↓
+User saved in MongoDB
+
+Login
+   ↓
+Email + Password
+   ↓
+User found in MongoDB
+   ↓
+bcrypt.compare()
+   ↓
+JWT generated
+   ↓
+Bearer Token used for protected APIs
+
+Request Flow
+
+Client / Postman
+       ↓
+Express Router
+       ↓
+Authentication Middleware
+       ↓
+Authorization Middleware (Admin)
+       ↓
+Controller
+       ↓
+Mongoose
+       ↓
+MongoDB
+       ↓
+JSON Response
+
+Middleware
+
+Authentication Middleware
+
+Reads the Authorization: Bearer <token> header
+
+Verifies the JWT
+
+Extracts the authenticated user's ID
+
+Stores it in req.userId
+
+Allows access to protected routes
+
+Authorization Middleware
+
+Finds the authenticated user using req.userId
+
+Checks the user's role
+
+Allows the request only when role === "admin"
+
+Returns an error when a normal user tries to access admin APIs
 
 Project Structure
 
 Social Media Project/
+│
 ├── controllers/
-│   ├── user
-│   ├── post
-│   ├── like
-│   ├── comment
-│   └── share
+│   ├── userController.ts
+│   ├── postController.ts
+│   ├── likeController.ts
+│   ├── commentController.ts
+│   └── shareController.ts
+│
 ├── models/
+│   ├── User
+│   ├── Post
+│   ├── Like
+│   ├── Comment
+│   ├── Share
+│   └── seedadmin.js
+│
 ├── routes/
 │   ├── user
 │   ├── post
@@ -102,135 +194,195 @@ Social Media Project/
 │   ├── comment
 │   ├── share
 │   └── admin
+│
 ├── middleware/
 │   ├── authmiddleware
 │   └── authorization
+│
 ├── migration/
 │   └── addrole.js
+│
 ├── logger/
 │   └── log.js
+│
 ├── logs/
 │   └── app.log
+│
 ├── app.ts
 ├── tsconfig.json
 └── package.json
 
-Main Models
+Database Models
+
+Model
+
+Purpose
 
 User
 
-name, email, password, adress, role, createdAt
+Stores user information, password, role, address and creation date
 
 Post
 
-user, title, description, image, location,
-like[], totallike, comment[], totalComment
+Stores post details, author, likes, comments and counts
 
-Like, Comment, Share are handled separately for their respective social activities.
+Like
 
-How the Project Works
+Handles post like information
 
-Client / Postman
-       ↓
-   Express Routes
-       ↓
-Authentication Middleware
-       ↓
-Authorization Middleware (Admin routes)
-       ↓
-    Controller
-       ↓
- Mongoose / MongoDB
-       ↓
- JSON Response
+Comment
 
-For login, the flow is:
+Handles comment information
 
-Email + Password
-       ↓
-Find User
-       ↓
-bcrypt.compare()
-       ↓
-Create JWT
-       ↓
-Send Token
-       ↓
-Use Bearer Token on Protected APIs
+Share
 
-Middleware
+Handles post share information
 
-Authentication Middleware: verifies the Bearer JWT and stores the authenticated user's ID in req.userId.
+User Fields
 
-Authorization Middleware: finds the authenticated user and allows the request only when role === "admin".
+name, email, password, adress, role, createdAt
 
-Logging
+Post Fields
 
-Important actions are recorded with timestamps in:
+user, title, description, image, location, like[], totallike, comment[], totalComment
+
+Logging System
+
+The project contains a custom logger that records important application activities with timestamps.
+
+Logged activities include:
+
+User registration
+
+User login
+
+Post operations
+
+Comments
+
+Likes and unlikes
+
+Shares
+
+Admin actions
+
+Logs are stored in:
 
 logs/app.log
 
-Logging covers registration, login, posts, comments, likes/unlikes, shares and admin actions.
+Database Seeding & Migration
 
-Seed & Migration
+Data Seeding
 
-The project includes database seeding for initial users/admins and a migration script for older users:
+The seed file creates initial users and admins for testing. The seed logic can also check existing email records and assign the correct role instead of creating unnecessary duplicates.
+
+Migration
+
+The migration script updates older users who do not have a role:
 
 migration/addrole.js
 
-The migration assigns role: "user" to existing users that do not yet have a role.
+It assigns:
 
-Run the Project
+role = "user"
 
-Install dependencies:
+to users where the role does not already exist.
+
+How to Run
+
+1. Install Dependencies
 
 npm install
 
-Run in development mode:
+2. Start the Server
 
 nodemon app.ts
 
-The API runs on:
+3. API Server
 
 http://localhost:3000
 
-The MongoDB database is:
+4. MongoDB Database
 
 SocialMedia
 
 Testing
 
-All API endpoints have been tested with Postman. Database records can be checked in MongoDB Compass.
+All major API endpoints are tested using Postman.
 
-Current Status
+Database records are verified using MongoDB Compass.
 
-The Social Media Backend project is completed with:
+Authentication and admin authorization are tested with valid and invalid JWT tokens.
 
-5 models
+CRUD operations, likes, comments, shares, and admin actions are verified through API responses.
 
-5 controllers
+Complete Project Flow
 
-Separate routers
+User
+ │
+ ├── Register
+ │      ↓
+ │   bcrypt password hashing
+ │      ↓
+ │   MongoDB
+ │
+ ├── Login
+ │      ↓
+ │   JWT Token
+ │      ↓
+ │   Protected APIs
+ │
+ ├── Posts
+ │      ├── Create
+ │      ├── Read
+ │      ├── Update
+ │      └── Delete
+ │
+ ├── Like / Unlike
+ │
+ ├── Comment / Delete Comment
+ │
+ └── Share
 
-JWT authentication
+Admin
+ │
+ └── JWT Authentication
+        ↓
+    Authorization Check
+        ↓
+    Admin Management APIs
 
-Authentication and authorization middleware
+Project Status
 
-Admin/RBAC system
+The project is completed and includes:
 
-CRUD operations for posts
+5 Models
 
-Like, unlike, comment and share functionality
+5 Controllers
 
-Logging system
+5 Main Routers + Admin Router
 
-Data seeding
+JWT Authentication
 
-Database migration
+Authentication & Authorization Middleware
 
-TypeScript conversion
+Role-Based Access Control
 
-Postman API testing
+Post CRUD
+
+Likes, Unlikes, Comments & Shares
+
+Logging System
+
+Data Seeding
+
+Database Migration
+
+TypeScript Integration
+
+Postman API Testing
+
+MongoDB Compass Verification
 
 Author
 
