@@ -1,0 +1,731 @@
+2026-09-01T16:10:56.133Z-User is Registered 
+2026-09-01T16:13:17.467Z-User Login 
+2026-09-01T16:16:18.768Z-User Login 
+2026-09-01T16:18:10.577Z-User is Registered 
+2026-09-01T16:21:19.841Z-Admin delete the user 
+2026-09-01T16:23:54.704Z-User Login 
+2026-09-01T16:25:58.103Z-User Login  - aheerdawood014@gmail.com
+2026-09-01T16:26:17.803Z-User is Registered  - mughees1111@gmail.com
+2026-09-01T16:27:34.210Z-Admin delete the user  - {
+  _id: new ObjectId('6a96fca9c57520cbaca4b404'),
+  name: 'Mughees 1111',
+  email: 'mughees1111@gmail.com',
+  password: '$2b$10$yg7eX.K0TxM6V5KLecmkV.LBpE6o6dK4LorrVOwpa67wTA6Ely/tS',
+  role: 'user',
+  adress: 'Isbd City hostel 111112',
+  createdAt: 2026-09-01T16:26:17.791Z,
+  __v: 0
+}
+2026-09-01T16:29:55.559Z-Admin delete the post  - {
+  totallike: 0,
+  totalComment: 0,
+  totalshare: 0,
+  _id: new ObjectId('6a8f153935f3cbebc43e82da'),
+  user: new ObjectId('6a8da8a024b4130d0671c071'),
+  title: 'hey this s dawoood ',
+  description: 'i am learing node js ',
+  location: 'khusahabb',
+  image: '1234dawoodraza',
+  createdAt: 2026-08-26T16:32:57.768Z,
+  __v: 0,
+  likes: 3,
+  like: [],
+  comment: [],
+  share: []
+}
+2026-09-01T16:33:55.327Z-Admin delete the comment 
+2026-09-01T16:38:44.847Z-Admin view all the post  - {
+  _id: new ObjectId('6a8da8a024b4130d0671c071'),
+  name: 'Dawood',
+  email: 'dawood@gmail.com',
+  password: '$2b$10$2mrp2CUJY1Ccu2zn1/iEsOBptGJDXFJsOH1.1FMnLoMfpt1cFhT5u',
+  adress: 'Lahore',
+  createdAt: 2026-08-25T14:37:20.544Z,
+  __v: 0,
+  role: 'user'
+},{
+  _id: new ObjectId('6a8da99708f38897b0b1a21e'),
+  name: 'Faizan',
+  email: 'faizan@gmail.com',
+  password: '$2b$10$XpmdXlyHAUFnsO5QVaIe8eE1WR9GFeaAAMbr6kJ.d4YcYm7hsQv0i',
+  adress: 'Coderzhunt',
+  createdAt: 2026-08-25T14:41:27.770Z,
+  __v: 0,
+  role: 'user'
+},{
+  _id: new ObjectId('6a8ee83e7723e5564ca194fb'),
+  name: 'Anas',
+  email: 'anas@gmail.com',
+  password: '$2b$10$eNDipwfurlz77AjOpyxIS.thIhj0imcZjmLR9wJNX1IjrF7hUlgzO',
+  adress: 'Purelogics Johar town',
+  createdAt: 2026-08-26T13:21:02.580Z,
+  __v: 0,
+  role: 'user'
+},{
+  _id: new ObjectId('6a8f3943dd90372c5f05a25e'),
+  name: 'anas',
+  email: 'anas1@gmail.com',
+  password: '$2b$10$SxdGmcLcpr6jLz6mGvunb.0Tr/9Q4ZG7u3SyKJsMr.CpUFm6epXiC',
+  adress: 'Coderzhunt',
+  createdAt: 2026-08-26T19:06:43.288Z,
+  __v: 0,
+  role: 'user'
+},{
+  _id: new ObjectId('6a8f3ef13589b86b020980f0'),
+  name: 'Ahmad',
+  email: 'ahmad@gmail.com',
+  password: '$2b$10$6bgLaGtZfDP8gMU3pGl0aOcWPoiYSQSLL.9wKEkt1MSEMs8RhtwU6',
+  adress: 'SGD',
+  createdAt: 2026-08-26T19:30:57.718Z,
+  __v: 0,
+  role: 'user'
+},{
+  _id: new ObjectId('6a90a062512e469d493ea76f'),
+  name: 'ali ahad  ',
+  email: 'ali ahad@gmail.com',
+  password: '$2b$10$dgonwmnjkYWOmdAXD2J17.iXn8GwZ2n03cTnbSBfRkiYGIVQxmXKi',
+  adress: 'Giirote',
+  createdAt: 2026-08-27T20:38:58.652Z,
+  __v: 0,
+  role: 'user'
+},{
+  _id: new ObjectId('6a91dd0e0e1711904ff674c5'),
+  name: 'Sardar Ali Ahsan ',
+  email: 'sardar@gmail.com',
+  password: '$2b$10$2IFIFI247AFXq9ngQpZ5.O7uFavzXWj5nGAZdjIh3uqZhqlzEXcKS',
+  adress: 'Atomic Khushab ',
+  createdAt: 2026-08-28T19:10:06.768Z,
+  __v: 0,
+  role: 'user'
+},{
+  _id: new ObjectId('6a96dcb852caddeaec79148f'),
+  name: 'shaheernawaz',
+  email: 'shaheeraaa@gmail.com',
+  password: '$2b$10$5NJMhx400hlQKyIffGrMIORFlwgm.JOhM8gMIVUHr8Zkt4OvNjLNe',
+  role: 'user',
+  adress: 'wahcantt isbd toll plaza',
+  createdAt: 2026-09-01T14:10:00.463Z,
+  __v: 0
+},{
+  _id: new ObjectId('6a96dfc29cc20087595d476b'),
+  name: 'Dawood Aheer',
+  email: 'aheerdawood014@gmail.com',
+  password: '$2b$10$hn8.Po1l8RiSVE3i1kDrzOavW8mfrVJFKX8VMlm.yob9FRia9NZ4W',
+  role: 'admin',
+  adress: 'Lahore Johar Town',
+  createdAt: 2026-09-01T14:22:58.442Z,
+  __v: 0
+},{
+  _id: new ObjectId('6a96dfc29cc20087595d476c'),
+  name: 'Faizan Arif',
+  email: 'faizan@gmail.com',
+  password: '$2b$10$vt5Rtr6mEpwSHFRxqhM71u6796qt8t5YGQpP/pKkAlRAqURoiUKJS',
+  role: 'user',
+  adress: 'Pia Road',
+  createdAt: 2026-09-01T14:22:58.517Z,
+  __v: 0
+},{
+  _id: new ObjectId('6a96dfc29cc20087595d476d'),
+  name: 'Ali Marjan',
+  email: 'marjan@gmail.com',
+  password: '$2b$10$5DGX1Iz1vJAepd4RVFMOLe/cPUJZaQp8dmZXYjJBLIweljAxVwpjK',
+  role: 'user',
+  adress: 'Girote',
+  createdAt: 2026-09-01T14:22:58.586Z,
+  __v: 0
+},{
+  _id: new ObjectId('6a96e0d8dfb792ceae353ec7'),
+  name: 'Rehan abbas ',
+  email: 'rehan11@gmail.com',
+  password: '$2b$10$ln.Psp4jCWMsLWK14a3LJegKXLXoU2HEz9zYguvbilClM0ytsvwHK',
+  role: 'user',
+  adress: 'Isbd City hostel',
+  createdAt: 2026-09-01T14:27:36.074Z,
+  __v: 0
+},{
+  _id: new ObjectId('6a96f91027263b07784cfeab'),
+  name: 'Mughees  ',
+  email: 'mughees@gmail.com',
+  password: '$2b$10$u4LDKVBMrZo1intCX0CQJ.y/93lbej5/QF9ntkUFngGk79Z7wl2xC',
+  role: 'user',
+  adress: 'Isbd City hostel 12',
+  createdAt: 2026-09-01T16:10:56.122Z,
+  __v: 0
+}
+2026-09-01T17:00:11.959Z-User Login  - dawood@gmail.com
+2026-09-01T17:01:45.484Z-User Login  - dawood@gmail.com
+2026-09-01T17:02:02.612Z-Post updated
+2026-09-01T17:02:29.998Z-User Login  - aheerdawood014@gmail.com
+2026-09-01T17:03:39.905Z-Post updated
+2026-09-01T17:03:42.518Z-Post updated
+2026-09-01T17:03:47.358Z-Post updated
+2026-09-01T18:11:58.783Z-User Login  - aheerdawood014@gmail.com
+2026-09-01T18:12:10.486Z-Admin delete the user  - 6a8f3943dd90372c5f05a25e
+2026-09-01T18:14:33.882Z-Admin delete the post  - 2nd thingit is 
+2026-09-01T18:36:40.922Z-User is Registered  - mugheesnawaz1111@gmail.com
+2026-09-01T18:53:49.510Z-User Login  - mugheesnawaz1111@gmail.com
+2026-09-01T18:54:15.149Z-User Login  - aheerdawood014@gmail.com
+2026-09-01T18:56:52.431Z-User Login  - mugheesnawaz1111@gmail.com
+2026-09-01T18:57:14.010Z-User Login  - aheerdawood014@gmail.com
+2026-09-01T18:57:29.116Z-Admin view all the post  - {
+  _id: new ObjectId('6a8da8a024b4130d0671c071'),
+  name: 'Dawood',
+  email: 'dawood@gmail.com',
+  password: '$2b$10$2mrp2CUJY1Ccu2zn1/iEsOBptGJDXFJsOH1.1FMnLoMfpt1cFhT5u',
+  adress: 'Lahore',
+  createdAt: 2026-08-25T14:37:20.544Z,
+  __v: 0,
+  role: 'user'
+},{
+  _id: new ObjectId('6a8da99708f38897b0b1a21e'),
+  name: 'Faizan',
+  email: 'faizan@gmail.com',
+  password: '$2b$10$XpmdXlyHAUFnsO5QVaIe8eE1WR9GFeaAAMbr6kJ.d4YcYm7hsQv0i',
+  adress: 'Coderzhunt',
+  createdAt: 2026-08-25T14:41:27.770Z,
+  __v: 0,
+  role: 'user'
+},{
+  _id: new ObjectId('6a8ee83e7723e5564ca194fb'),
+  name: 'Anas',
+  email: 'anas@gmail.com',
+  password: '$2b$10$eNDipwfurlz77AjOpyxIS.thIhj0imcZjmLR9wJNX1IjrF7hUlgzO',
+  adress: 'Purelogics Johar town',
+  createdAt: 2026-08-26T13:21:02.580Z,
+  __v: 0,
+  role: 'user'
+},{
+  _id: new ObjectId('6a8f3ef13589b86b020980f0'),
+  name: 'Ahmad',
+  email: 'ahmad@gmail.com',
+  password: '$2b$10$6bgLaGtZfDP8gMU3pGl0aOcWPoiYSQSLL.9wKEkt1MSEMs8RhtwU6',
+  adress: 'SGD',
+  createdAt: 2026-08-26T19:30:57.718Z,
+  __v: 0,
+  role: 'user'
+},{
+  _id: new ObjectId('6a90a062512e469d493ea76f'),
+  name: 'ali ahad  ',
+  email: 'ali ahad@gmail.com',
+  password: '$2b$10$dgonwmnjkYWOmdAXD2J17.iXn8GwZ2n03cTnbSBfRkiYGIVQxmXKi',
+  adress: 'Giirote',
+  createdAt: 2026-08-27T20:38:58.652Z,
+  __v: 0,
+  role: 'user'
+},{
+  _id: new ObjectId('6a91dd0e0e1711904ff674c5'),
+  name: 'Sardar Ali Ahsan ',
+  email: 'sardar@gmail.com',
+  password: '$2b$10$2IFIFI247AFXq9ngQpZ5.O7uFavzXWj5nGAZdjIh3uqZhqlzEXcKS',
+  adress: 'Atomic Khushab ',
+  createdAt: 2026-08-28T19:10:06.768Z,
+  __v: 0,
+  role: 'user'
+},{
+  _id: new ObjectId('6a96dcb852caddeaec79148f'),
+  name: 'shaheernawaz',
+  email: 'shaheeraaa@gmail.com',
+  password: '$2b$10$5NJMhx400hlQKyIffGrMIORFlwgm.JOhM8gMIVUHr8Zkt4OvNjLNe',
+  role: 'user',
+  adress: 'wahcantt isbd toll plaza',
+  createdAt: 2026-09-01T14:10:00.463Z,
+  __v: 0
+},{
+  _id: new ObjectId('6a96dfc29cc20087595d476b'),
+  name: 'Dawood Aheer',
+  email: 'aheerdawood014@gmail.com',
+  password: '$2b$10$hn8.Po1l8RiSVE3i1kDrzOavW8mfrVJFKX8VMlm.yob9FRia9NZ4W',
+  role: 'admin',
+  adress: 'Lahore Johar Town',
+  createdAt: 2026-09-01T14:22:58.442Z,
+  __v: 0
+},{
+  _id: new ObjectId('6a96dfc29cc20087595d476c'),
+  name: 'Faizan Arif',
+  email: 'faizan@gmail.com',
+  password: '$2b$10$vt5Rtr6mEpwSHFRxqhM71u6796qt8t5YGQpP/pKkAlRAqURoiUKJS',
+  role: 'user',
+  adress: 'Pia Road',
+  createdAt: 2026-09-01T14:22:58.517Z,
+  __v: 0
+},{
+  _id: new ObjectId('6a96dfc29cc20087595d476d'),
+  name: 'Ali Marjan',
+  email: 'marjan@gmail.com',
+  password: '$2b$10$5DGX1Iz1vJAepd4RVFMOLe/cPUJZaQp8dmZXYjJBLIweljAxVwpjK',
+  role: 'user',
+  adress: 'Girote',
+  createdAt: 2026-09-01T14:22:58.586Z,
+  __v: 0
+},{
+  _id: new ObjectId('6a96e0d8dfb792ceae353ec7'),
+  name: 'Rehan abbas ',
+  email: 'rehan11@gmail.com',
+  password: '$2b$10$ln.Psp4jCWMsLWK14a3LJegKXLXoU2HEz9zYguvbilClM0ytsvwHK',
+  role: 'user',
+  adress: 'Isbd City hostel',
+  createdAt: 2026-09-01T14:27:36.074Z,
+  __v: 0
+},{
+  _id: new ObjectId('6a96f91027263b07784cfeab'),
+  name: 'Mughees  ',
+  email: 'mughees@gmail.com',
+  password: '$2b$10$u4LDKVBMrZo1intCX0CQJ.y/93lbej5/QF9ntkUFngGk79Z7wl2xC',
+  role: 'user',
+  adress: 'Isbd City hostel 12',
+  createdAt: 2026-09-01T16:10:56.122Z,
+  __v: 0
+},{
+  _id: new ObjectId('6a971b387a043923b78c68ff'),
+  name: 'Mughees nawaz  1111',
+  email: 'mugheesnawaz1111@gmail.com',
+  password: '$2b$10$On6LNqTzOJYRWWNeTHw2ZO06OK9jHshUaBBNqBc9AitYZA9DCkgii',
+  role: 'Admin',
+  adress: 'Isbd City hostel !!!!!!!',
+  createdAt: 2026-09-01T18:36:40.915Z,
+  __v: 0
+}
+2026-09-01T18:57:40.391Z-User Login  - mugheesnawaz1111@gmail.com
+2026-09-01T19:32:30.905Z-User Login  - zain@gmail.com
+2026-09-01T19:32:45.135Z-Admin view all the post  - {
+  _id: new ObjectId('6a8da8a024b4130d0671c071'),
+  name: 'Dawood',
+  email: 'dawood@gmail.com',
+  password: '$2b$10$2mrp2CUJY1Ccu2zn1/iEsOBptGJDXFJsOH1.1FMnLoMfpt1cFhT5u',
+  adress: 'Lahore',
+  createdAt: 2026-08-25T14:37:20.544Z,
+  __v: 0,
+  role: 'user'
+},{
+  _id: new ObjectId('6a8da99708f38897b0b1a21e'),
+  name: 'Faizan',
+  email: 'faizan@gmail.com',
+  password: '$2b$10$XpmdXlyHAUFnsO5QVaIe8eE1WR9GFeaAAMbr6kJ.d4YcYm7hsQv0i',
+  adress: 'Coderzhunt',
+  createdAt: 2026-08-25T14:41:27.770Z,
+  __v: 0,
+  role: 'user'
+},{
+  _id: new ObjectId('6a8ee83e7723e5564ca194fb'),
+  name: 'Anas',
+  email: 'anas@gmail.com',
+  password: '$2b$10$eNDipwfurlz77AjOpyxIS.thIhj0imcZjmLR9wJNX1IjrF7hUlgzO',
+  adress: 'Purelogics Johar town',
+  createdAt: 2026-08-26T13:21:02.580Z,
+  __v: 0,
+  role: 'user'
+},{
+  _id: new ObjectId('6a8f3ef13589b86b020980f0'),
+  name: 'Ahmad',
+  email: 'ahmad@gmail.com',
+  password: '$2b$10$6bgLaGtZfDP8gMU3pGl0aOcWPoiYSQSLL.9wKEkt1MSEMs8RhtwU6',
+  adress: 'SGD',
+  createdAt: 2026-08-26T19:30:57.718Z,
+  __v: 0,
+  role: 'user'
+},{
+  _id: new ObjectId('6a90a062512e469d493ea76f'),
+  name: 'ali ahad  ',
+  email: 'ali ahad@gmail.com',
+  password: '$2b$10$dgonwmnjkYWOmdAXD2J17.iXn8GwZ2n03cTnbSBfRkiYGIVQxmXKi',
+  adress: 'Giirote',
+  createdAt: 2026-08-27T20:38:58.652Z,
+  __v: 0,
+  role: 'user'
+},{
+  _id: new ObjectId('6a91dd0e0e1711904ff674c5'),
+  name: 'Sardar Ali Ahsan ',
+  email: 'sardar@gmail.com',
+  password: '$2b$10$2IFIFI247AFXq9ngQpZ5.O7uFavzXWj5nGAZdjIh3uqZhqlzEXcKS',
+  adress: 'Atomic Khushab ',
+  createdAt: 2026-08-28T19:10:06.768Z,
+  __v: 0,
+  role: 'user'
+},{
+  _id: new ObjectId('6a96dcb852caddeaec79148f'),
+  name: 'shaheernawaz',
+  email: 'shaheeraaa@gmail.com',
+  password: '$2b$10$5NJMhx400hlQKyIffGrMIORFlwgm.JOhM8gMIVUHr8Zkt4OvNjLNe',
+  role: 'user',
+  adress: 'wahcantt isbd toll plaza',
+  createdAt: 2026-09-01T14:10:00.463Z,
+  __v: 0
+},{
+  _id: new ObjectId('6a96dfc29cc20087595d476b'),
+  name: 'Dawood Aheer',
+  email: 'aheerdawood014@gmail.com',
+  password: '$2b$10$hn8.Po1l8RiSVE3i1kDrzOavW8mfrVJFKX8VMlm.yob9FRia9NZ4W',
+  role: 'admin',
+  adress: 'Lahore Johar Town',
+  createdAt: 2026-09-01T14:22:58.442Z,
+  __v: 0
+},{
+  _id: new ObjectId('6a96dfc29cc20087595d476c'),
+  name: 'Faizan Arif',
+  email: 'faizan@gmail.com',
+  password: '$2b$10$vt5Rtr6mEpwSHFRxqhM71u6796qt8t5YGQpP/pKkAlRAqURoiUKJS',
+  role: 'user',
+  adress: 'Pia Road',
+  createdAt: 2026-09-01T14:22:58.517Z,
+  __v: 0
+},{
+  _id: new ObjectId('6a96dfc29cc20087595d476d'),
+  name: 'Ali Marjan',
+  email: 'marjan@gmail.com',
+  password: '$2b$10$5DGX1Iz1vJAepd4RVFMOLe/cPUJZaQp8dmZXYjJBLIweljAxVwpjK',
+  role: 'user',
+  adress: 'Girote',
+  createdAt: 2026-09-01T14:22:58.586Z,
+  __v: 0
+},{
+  _id: new ObjectId('6a96e0d8dfb792ceae353ec7'),
+  name: 'Rehan abbas ',
+  email: 'rehan11@gmail.com',
+  password: '$2b$10$ln.Psp4jCWMsLWK14a3LJegKXLXoU2HEz9zYguvbilClM0ytsvwHK',
+  role: 'user',
+  adress: 'Isbd City hostel',
+  createdAt: 2026-09-01T14:27:36.074Z,
+  __v: 0
+},{
+  _id: new ObjectId('6a96f91027263b07784cfeab'),
+  name: 'Mughees  ',
+  email: 'mughees@gmail.com',
+  password: '$2b$10$u4LDKVBMrZo1intCX0CQJ.y/93lbej5/QF9ntkUFngGk79Z7wl2xC',
+  role: 'user',
+  adress: 'Isbd City hostel 12',
+  createdAt: 2026-09-01T16:10:56.122Z,
+  __v: 0
+},{
+  _id: new ObjectId('6a971b387a043923b78c68ff'),
+  name: 'Mughees nawaz  1111',
+  email: 'mugheesnawaz1111@gmail.com',
+  password: '$2b$10$On6LNqTzOJYRWWNeTHw2ZO06OK9jHshUaBBNqBc9AitYZA9DCkgii',
+  role: 'Admin',
+  adress: 'Isbd City hostel !!!!!!!',
+  createdAt: 2026-09-01T18:36:40.915Z,
+  __v: 0
+},{
+  _id: new ObjectId('6a9727b692101d9e6d3290a2'),
+  name: 'Zain',
+  email: 'zain@gmail.com',
+  password: '$2b$10$CeU8LLl.Pb3SSg9DVmL2Re9UWR.Rw1inU0lx0iLrh1A1/cajpTEPi',
+  role: 'admin',
+  adress: 'Wapda Town ',
+  createdAt: 2026-09-01T19:29:58.801Z,
+  __v: 0
+}
+2026-09-01T19:32:52.369Z-User Login  - aheerdawood014@gmail.com
+2026-09-01T19:34:45.350Z-Admin view all the post  - undefined
+2026-09-01T19:36:17.620Z-Admin view all the post  - undefined
+2026-09-01T19:37:09.884Z-Admin view all the post  - undefined
+2026-09-01T19:39:36.065Z-Admin view all the post  - undefined
+2026-09-01T19:40:10.445Z-Admin view all the post  - 14
+2026-09-01T21:13:30.505Z-User Login  - dawood@gmail.com
+2026-09-01T21:13:53.667Z-Comment is:[object Object]
+2026-09-01T21:14:00.514Z-Comment is:[object Object]
+2026-09-01T21:15:46.053Z-Comment is:This is my first coment on this post 
+2026-09-01T21:19:11.069Z-User Login  - dawood@gmail.com
+2026-09-01T21:21:00.108Z-Get comments:3
+2026-09-01T21:24:01.182Z-Shared post is: undefined
+2026-09-01T21:24:05.229Z-Shared post is: undefined
+2026-09-01T21:24:34.574Z-Shared post is: undefined
+2026-09-01T21:24:51.535Z-Shared post is: undefined
+2026-09-01T21:26:11.072Z-Shared post is: undefined
+2026-09-01T21:27:22.655Z-Shared post is: undefined
+2026-09-02T14:40:56.811Z-User Login  - aheerdawood014@gmail.com
+2026-09-02T14:41:32.415Z-User is Registered  - rehan1111@gmail.com
+2026-09-02T14:42:30.712Z-Admin delete the user  - 6a98359c67cd2f065d6291f4
+2026-09-02T14:43:37.149Z-Admin delete the post  - AI in our lifeuse it cahnges our life make it 
+2026-09-02T14:44:52.681Z-Admin delete the comment  - 6a908989d9f3d7206728f8a3
+2026-09-02T14:45:28.569Z-Admin view all the users  - 14
+2026-09-02T14:46:44.814Z-All post fetched
+2026-09-02T14:46:56.235Z-User Login  - aheerdawood014@gmail.com
+2026-09-02T14:47:50.204Z-User Login  - dawood@gmail.com
+2026-09-02T15:09:07.102Z-User Login  - aheerdawood014@gmail.com
+2026-09-02T15:18:57.070Z-Admin view all the users  - 14
+2026-09-02T15:20:22.702Z-Admin view all the users  - 14
+2026-09-02T15:23:44.721Z-User Login  - aheerdawood014@gmail.com
+2026-09-02T15:25:45.325Z-User Login  - dawood@gmail.com
+2026-09-02T15:30:15.217Z-User Login  - aheerdawood014@gmail.com
+2026-09-02T15:30:39.865Z-Admin view all the users  - 14
+2026-09-02T15:32:01.479Z-User Login  - aheerdawood014@gmail.com
+2026-09-02T15:43:23.940Z-Admin view all the users  - 14
+2026-09-02T15:43:55.657Z-User Login  - aheerdawood014@gmail.com
+2026-09-02T15:55:12.490Z-User Login  - aheerdawood014@gmail.com
+2026-09-02T15:55:38.151Z-User Login  - aheerdawood014@gmail.com
+2026-09-02T15:58:56.532Z-All post fetched
+2026-09-02T16:00:37.253Z-All post fetched
+2026-09-02T16:01:59.218Z-User Login  - aheerdawood014@gmail.com
+2026-09-02T16:02:46.010Z-User Login  - dawood@gmail.com
+2026-09-02T16:03:08.982Z-User Login  - aheerdawood014@gmail.com
+2026-09-02T16:05:19.613Z-All post fetched
+2026-09-02T16:06:28.283Z-All post fetched
+2026-09-02T16:10:45.583Z-All post fetched
+2026-09-02T16:11:03.734Z-User Login  - dawood@gmail.com
+2026-09-02T16:12:19.114Z-User Login  - aheerdawood014@gmail.com
+2026-09-02T16:12:35.532Z-Admin view all the users  - 14
+2026-09-02T16:32:12.336Z-Admin view all the users - 14
+2026-09-02T16:33:17.269Z-Admin view all the users - 14
+2026-09-02T16:37:22.434Z-User Login  - aheerdawood014@gmail.com
+2026-09-02T16:39:25.085Z-User Login  - aheerdawood014@gmail.com
+2026-09-02T16:44:24.362Z-All post fetched by : - 12
+2026-09-02T16:47:12.779Z-All post fetched by : - undefined
+2026-09-02T16:48:02.259Z-All post fetched by : - undefined
+2026-09-02T16:50:16.674Z-All post fetched by : - undefined
+2026-09-02T16:54:21.238Z-All post fetched by : - undefined
+2026-09-02T16:54:51.730Z-All post fetched by : - undefined
+2026-09-02T16:57:03.647Z-All post fetched by : - undefined
+2026-09-02T18:13:10.045Z-All post fetched by : - undefined
+2026-09-02T18:14:09.683Z-All post fetched by : - undefined
+2026-09-02T18:15:08.906Z-All post fetched by : - undefined-undefined
+2026-09-02T18:21:27.131Z-Email is  - aheerdawood014@gmail.com
+2026-09-02T18:22:31.567Z-Email is  - aheerdawood014@gmail.com
+2026-09-02T18:23:22.832Z-Admin view all the users - 14
+2026-09-02T18:24:19.545Z-All post fetched by : - undefined
+2026-09-02T18:25:06.455Z-All post fetched by : - undefined
+2026-09-02T18:40:06.024Z-All post fetched by : - $Admin{req.userId}
+2026-09-02T18:46:21.832Z-All post fetched by : - 6a96dfc29cc20087595d476b
+2026-09-02T18:47:35.997Z-All post fetched by : - undefined
+2026-09-02T18:48:52.856Z-All post fetched by : - undefined
+2026-09-02T18:49:46.204Z-All post fetched by : - undefined
+2026-09-02T18:50:06.817Z-All post fetched by : - undefined
+2026-09-02T18:52:16.601Z-All post fetched by : - undefined
+2026-09-02T18:53:02.852Z-Shared post is: undefined
+2026-09-02T18:54:34.459Z-Shared post is: undefined
+2026-09-02T18:54:48.089Z-All post fetched by : - undefined
+2026-09-02T18:54:55.683Z-Admin view all the users - 14
+2026-09-02T18:54:55.683Z-All user fetched by : - undefined
+2026-09-02T18:55:42.324Z-Admin view all the users - 14
+2026-09-02T18:55:42.325Z-All user fetched by : - admin
+2026-09-02T18:56:15.852Z-Admin view all the users - 14
+2026-09-02T18:56:15.854Z-All user fetched by : - undefined
+2026-09-02T18:57:20.619Z-Admin view all the users - 14
+2026-09-02T18:57:20.621Z-All user fetched by : - undefined
+2026-09-02T18:57:54.074Z-Admin view all the users - 14
+2026-09-02T18:57:54.076Z-All user fetched by : - 6a96dfc29cc20087595d476b
+2026-09-02T18:58:20.804Z-Admin view all the users - 14
+2026-09-02T18:58:20.806Z-All user fetched by : - undefined
+2026-09-02T18:58:51.384Z-Admin view all the users - 14
+2026-09-02T18:59:20.267Z-Admin view all the users - 14
+2026-09-02T18:59:34.637Z-Admin view all the users - 14
+2026-09-02T18:59:34.639Z-All user fetched by : - undefined
+2026-09-02T19:00:31.542Z-Admin view all the users - 14
+2026-09-02T19:00:31.544Z-All user fetched by : - 6a96dfc29cc20087595d476b
+2026-09-02T19:01:10.277Z-Admin view all the users - 14
+2026-09-02T19:01:10.278Z-All user fetched by : - 6a96dfc29cc20087595d476b
+2026-09-02T19:03:05.720Z-Admin view all the users - 14
+2026-09-02T19:03:05.720Z-All user fetched by : - 6a9727b692101d9e6d3290a2
+2026-09-02T19:04:25.254Z-Admin view all the users - admin
+2026-09-02T19:04:25.256Z-All user fetched by : - 6a9727b692101d9e6d3290a2
+2026-09-02T19:05:06.560Z-Admin view all the users - admin
+2026-09-02T19:05:06.562Z-Admin view all the users - undefined
+2026-09-02T19:05:06.562Z-All user fetched by : - 6a9727b692101d9e6d3290a2
+2026-09-02T19:05:54.247Z-Admin view all the users - admin
+2026-09-02T19:05:54.251Z-Admin view all the users - undefined
+2026-09-02T19:05:54.251Z-Admin view all the users - undefined
+2026-09-02T19:05:54.252Z-All user fetched by : - 6a9727b692101d9e6d3290a2
+2026-09-02T19:06:52.305Z-Admin view all the users - admin
+2026-09-02T19:06:52.307Z-Admin view all the users - undefined
+2026-09-02T19:06:52.307Z-Admin view all the users - undefined
+2026-09-02T19:06:52.308Z-All user fetched by : - 6a9727b692101d9e6d3290a2
+2026-09-02T19:23:12.386Z-Admin: Zain has viewed all the users2026-09-02T19:24:14.144Z-Admin: Zain has viewed all the users2026-09-02T19:40:03.585Z-Admin  undefined: Delete the user 2026-09-02T19:41:29.946Z-Admin: Zain has viewed all the users
+2026-09-02T19:41:58.721Z-Admin: Zain has viewed all the users/n2026-09-02T19:42:58.900Z-Admin: Zain has viewed all the users
+2026-09-02T19:43:38.258Z-Admin: Zain has viewed all the users
+2026-09-02T19:43:50.435Z-Admin: Zain has viewed all the users
+2026-09-02T19:44:47.774Z-Admin  Dawood Aheer: Delete the user 
+2026-09-02T19:45:52.077Z-User is Registered 
+2026-09-02T19:46:13.155Z-Admin  Dawood Aheer: Delete the user 
+2026-09-02T19:51:53.169Z-Admin delete the post : hey this s dawoood aaaaaaadeeeeeer reere sadhjkld,sm fsmmsdmdmms  
+2026-09-02T19:55:33.514Z-delete the comment, {
+  user: new ObjectId('6a8da8a024b4130d0671c071'),
+  text: 'This is my first comment',
+  createdAt: 2026-08-27T19:01:35.460Z,
+  _id: new ObjectId('6a90898fd9f3d7206728f8b1')
+},{
+  user: new ObjectId('6a8da8a024b4130d0671c071'),
+  text: 'This is my first comment',
+  createdAt: 2026-08-27T20:19:09.748Z,
+  _id: new ObjectId('6a909bbd3a63255f236e4660')
+},{
+  user: new ObjectId('6a8da8a024b4130d0671c071'),
+  text: 'This is my first comment',
+  createdAt: 2026-08-27T20:19:11.708Z,
+  _id: new ObjectId('6a909bbf3a63255f236e4682')
+},{
+  user: new ObjectId('6a8da8a024b4130d0671c071'),
+  text: 'This is my first comment',
+  createdAt: 2026-08-27T20:19:12.784Z,
+  _id: new ObjectId('6a909bc03a63255f236e46a5')
+},{
+  user: new ObjectId('6a8da8a024b4130d0671c071'),
+  text: 'This is my first comment',
+  createdAt: 2026-08-27T20:19:14.566Z,
+  _id: new ObjectId('6a909bc23a63255f236e46c9')
+}
+2026-09-02T19:57:42.134Z-delete the comment, undefined
+2026-09-02T20:01:44.267Z-delete the comment, undefined
+2026-09-02T20:08:37.631Z-Admin:: model has viewed all the post
+2026-09-02T20:08:37.632Z-All post fetched by :
+2026-09-02T20:10:13.154Z-Admin:: model has viewed all the post
+2026-09-02T20:11:31.440Z-Admin:: model has viewed all the post
+2026-09-02T20:11:46.125Z-Admin:: model has viewed all the post
+2026-09-02T20:12:58.681Z-Admin:: undefined has viewed all the post
+2026-09-02T20:13:38.118Z-Admin:: undefined has viewed all the post
+2026-09-02T20:14:14.533Z-Admin:: undefined has viewed all the post
+2026-09-02T20:15:13.025Z-Admin:: undefined has viewed all the post
+2026-09-02T20:15:36.053Z-Admin:: undefined has viewed all the post
+2026-09-02T20:17:04.034Z-Admin:: undefined has viewed all the post
+2026-09-02T20:20:43.090Z-Admin: Zain has viewed all posts. Total posts: 11
+2026-09-02T20:21:13.637Z-Admin: Zain has viewed all posts. Total posts: 11
+2026-09-02T20:23:43.460Z-Admin:: undefined has viewed all the post: 11
+2026-09-02T20:24:05.245Z-Admin:: undefined has viewed all the post: 11
+2026-09-02T20:24:54.512Z-Admin:: undefined has viewed all the post: 11
+2026-09-02T20:26:40.299Z-Admin:: undefined has viewed all the post: 11
+2026-09-02T20:29:55.978Z-Admin:: model has viewed all the post: 11
+2026-09-02T20:31:23.908Z-Admin:: Zain has viewed all the post: 11
+2026-09-02T20:32:39.855Z-Admin:: Zain has viewed all the post: 11
+2026-09-02T20:39:25.887Z-Admin: Dawood Aheerdelete the comment, undefined
+2026-09-02T20:40:07.954Z-Admin: Dawood Aheerdelete the comment, {
+  user: new ObjectId('6a8da8a024b4130d0671c071'),
+  text: 'This is my first comment',
+  createdAt: 2026-08-27T18:16:22.455Z,
+  _id: new ObjectId('6a907ef65f1a316aaa3a1ee3')
+},{
+  user: new ObjectId('6a8da8a024b4130d0671c071'),
+  text: 'This is my first comment',
+  createdAt: 2026-08-27T18:20:15.084Z,
+  _id: new ObjectId('6a907fdf71a7e8bbcbfc3882')
+},{
+  user: new ObjectId('6a8da8a024b4130d0671c071'),
+  text: 'This is my first comment',
+  createdAt: 2026-08-27T18:20:16.732Z,
+  _id: new ObjectId('6a907fe071a7e8bbcbfc388a')
+},{
+  user: new ObjectId('6a8da8a024b4130d0671c071'),
+  text: 'This is my first comment',
+  createdAt: 2026-08-27T18:20:20.633Z,
+  _id: new ObjectId('6a907fe471a7e8bbcbfc3893')
+},{
+  user: new ObjectId('6a8da8a024b4130d0671c071'),
+  text: 'This is my first comment',
+  createdAt: 2026-08-27T18:20:22.164Z,
+  _id: new ObjectId('6a907fe671a7e8bbcbfc389d')
+},{
+  user: new ObjectId('6a8da8a024b4130d0671c071'),
+  text: 'This is my first comment',
+  createdAt: 2026-08-27T18:20:24.769Z,
+  _id: new ObjectId('6a907fe871a7e8bbcbfc38a8')
+},{
+  user: new ObjectId('6a8da8a024b4130d0671c071'),
+  text: 'This is my first comment',
+  createdAt: 2026-08-27T18:25:45.030Z,
+  _id: new ObjectId('6a908129f6bd075233ec6c49')
+},{
+  user: new ObjectId('6a8da8a024b4130d0671c071'),
+  text: 'This is my first comment',
+  createdAt: 2026-08-27T18:29:18.391Z,
+  _id: new ObjectId('6a9081fe90e4c4875138f577')
+},{
+  user: new ObjectId('6a8da8a024b4130d0671c071'),
+  text: 'This is my first comment',
+  createdAt: 2026-08-27T18:35:10.490Z,
+  _id: new ObjectId('6a90835e960aece8f1dba4d9')
+},{
+  user: new ObjectId('6a8da8a024b4130d0671c071'),
+  text: 'This is my first comment',
+  createdAt: 2026-08-27T18:35:12.499Z,
+  _id: new ObjectId('6a908360960aece8f1dba4e9')
+},{
+  user: new ObjectId('6a8da8a024b4130d0671c071'),
+  text: 'This is my first comment',
+  createdAt: 2026-08-27T18:35:14.871Z,
+  _id: new ObjectId('6a908362960aece8f1dba4fa')
+}
+2026-09-02T20:41:19.958Z-Admin: Dawood Aheerdelete the comment, undefined
+2026-09-02T20:43:32.109Z-Admin: Dawood Aheerdelete the comment, undefined
+2026-09-02T20:43:48.877Z-Admin: Dawood Aheerdelete the comment, undefined
+2026-09-02T20:49:29.622Z-Admin: Dawood Aheer deleted comment: undefined
+2026-09-02T20:51:06.485Z-Admin: Dawood Aheer deleted comment:
+2026-09-02T20:54:46.652Z-Admin Zain delete the post : hey this s dawoood 
+2026-09-02T20:56:01.227Z-Comment is:This is my first comment
+2026-09-02T21:01:28.488Z-Admin : DawoodComment is:This is my first comment
+2026-09-02T21:02:55.352Z-Admin : ali ahad   Comment is: This is my first comment
+2026-09-02T21:03:35.324Z-Admin : Dawood Aheer Comment is: This is my first comment
+2026-09-02T21:04:52.351Z-Admin : Zain Comment is: This is my first comment
+2026-09-02T21:12:38.621Z- Zain Comment is: This is my first comment
+2026-09-02T21:19:26.798Z- Zain with zain@gmail.com Comment lenght: 3
+2026-09-02T21:26:36.029Z-Zain : delete the comment 6a9087780f62f147dfb27b31
+2026-09-02T21:27:19.748Z-Zain : delete the comment 6a9087780f62f147dfb27b31
+2026-09-02T21:42:43.279Z-User is Registered 
+2026-09-02T21:43:33.734Z- liked the post undefined
+2026-09-02T21:49:11.281Z-shaheer111@gmail.com : liked the post
+2026-09-02T21:55:22.078Z-shaheer1111111 : unliked the post
+2026-09-02T21:56:02.576Z-Shared post is: undefined
+2026-09-02T21:57:18.573Z-Shared post is: undefined
+2026-09-02T21:59:15.603Z-model Shared post is: undefined
+2026-09-02T22:00:03.674Z-shaheer1111111 Shared post is: undefined
+2026-09-02T22:06:37.789Z-shaheer1111111 Shared post is: undefined
+2026-09-02T22:07:26.857Z-shaheer1111111 Shared post is: undefined
+2026-09-02T22:08:12.488Z-shaheer1111111 Shared post is: 6a8f16a792c88bb703256453
+2026-09-02T22:09:21.572Z-shaheer1111111 Shared post is: 6a8f16a792c88bb703256453
+2026-09-03T13:21:52.941Z-ali ahad   Shared post is: 6a8f16a792c88bb703256453
+2026-09-03T13:22:23.629Z-ali ahad   Shared post is: 6a8f16a792c88bb703256453
+2026-09-03T13:25:32.010Z-unshare post by:
+2026-09-03T13:26:02.676Z-unshare post by:
+2026-09-03T13:27:57.575Z-unshare post by:
+2026-09-03T13:28:47.548Z-unshare post by:
+2026-09-03T13:29:46.079Z-unshare post by:ali ahad  
+2026-09-03T13:32:06.840Z-ali ahad   : delete the comment 6a91b0fb4354979df50e9bd5
+2026-09-03T13:33:19.658Z-User is Registered 
+2026-09-03T13:34:37.934Z- shaheer nawaz Comment is: This is my first comment
+2026-09-03T13:35:47.454Z-ali ahad   : delete the comment 6a99776d0e03be49b60881f2
+2026-09-03T13:36:23.970Z- shaheer nawaz Comment is: This is my first comment how are you and waht 
+2026-09-03T13:37:04.751Z-ali ahad   : delete the comment 6a9977d70e03be49b608822f
+2026-09-03T13:41:17.092Z-user name is Dawood create a post
+2026-09-03T13:46:33.220Z-Role is user name is: Dawood : email is dawood@gmail.com  create a post
+2026-09-03T13:47:14.638Z-Role is user name is: Dawood : email is dawood@gmail.com  Get all post
+2026-09-03T13:49:03.994Z-Post updated
+2026-09-03T13:52:15.918Z-Role is user name is: Dawood : email is dawood@gmail.com  Updated  a post
+2026-09-03T13:55:37.456Z-Role is user name is: Dawood : email is dawood@gmail.com  Deleted  the post
+2026-09-03T14:04:31.701Z- shaheer nawaz Comment is: 11111111111111111111111111111111
+2026-09-03T14:05:55.025Z- Dawood Aheer Comment is: 11111111111111111111111111111111 22 2 2  2 2
+2026-09-03T14:18:13.647Z- Dawood Aheer Comment is: 111111111111111111111111111111112dssffgdgg
+2026-09-03T14:18:15.606Z- Dawood Aheer Comment is: 111111111111111111111111111111112dssffgdgg
+2026-09-03T14:20:12.863Z- ali ahad   Comment is: 111111111111111111111111111111112dssffgdgg
+2026-09-03T14:21:47.283Z- Dawood Aheer Comment is: 111111111111111111111111111111112dssffgdgg
+2026-09-03T14:22:20.365Z-Dawood Aheer : delete the comment 
+2026-09-03T14:26:00.533Z-Dawood : delete the comment 
+2026-09-03T14:39:02.960Z-Dawood : delete the comment 
+2026-09-03T14:41:19.231Z-Dawood : delete the comment 
+2026-09-03T14:43:21.739Z-Dawood : delete the comment 
+2026-09-04T14:15:18.397Z-User is Registered 
+2026-09-04T14:30:59.400Z-User is Registered 
+2026-09-04T14:33:18.935Z-User is Registered 
+2026-09-04T14:41:36.183Z-User is Registered 
+2026-09-04T14:42:18.877Z- Raza deleted user 6a9ad8a0484f33eb074f89ac
+2026-09-04T14:44:17.505Z-User is Registered 
+2026-09-04T14:45:21.450Z- Raza deleted user 6a9ad941484f33eb074f89ad
+2026-09-04T14:46:11.841Z-User is Registered 
+2026-09-04T14:46:47.315Z- user: Raza deleted userId 6a9ad9b3751391be3f0b494a
+2026-09-04T14:49:33.228Z-Role is user name is: Dawood : email is dawood@gmail.com  Get all post
+2026-09-04T14:50:34.729Z-Role is user name is: Dawood : email is dawood@gmail.com  Get all post
+2026-09-04T14:50:52.866Z-Role is user name is: Dawood : email is dawood@gmail.com  Get all post
+2026-09-04T14:51:38.860Z- user: name is: Dawood => email is dawood@gmail.com  Get all post
+2026-09-04T14:53:02.478Z- Dawood Comment is: This is my first comment
+2026-09-04T14:53:05.606Z- Dawood Comment is: This is my first comment
+2026-09-04T14:56:18.816Z-User is Registered 
+2026-09-04T14:56:51.017Z-raza@gmail.com : liked the post
+2026-09-04T15:01:47.841Z-Admin  Dawood Aheer: Delete the user 
+2026-09-04T15:02:26.293Z-User is Registered 
+2026-09-04T15:02:46.007Z-{user.role}:  Dawood Aheer => Delete the user 
+2026-09-04T15:04:23.667Z-User is Registered 
+2026-09-04T15:06:31.725Z-Admin Dawood Aheer delete the post : Faizan From coderz Hunt Associate Software Engineer !!!   
+2026-09-04T15:08:25.166Z-Admin: Dawood Aheerand admin deleted commentI
+2026-09-04T15:10:44.223Z-Admin: Dawood Aheer and 6a96dfc29cc20087595d476b =>  deleted comment
+2026-09-04T15:13:02.482Z-Admin: Dawood Aheer has viewed all the users
+2026-09-04T15:13:27.070Z-Admin: Dawood Aheer has viewed all the users  => $user.length}
+2026-09-04T15:14:25.394Z-Admin: Dawood Aheer =>  has viewed all the users  
+2026-09-04T15:16:02.374Z-Admin:: Dawood Aheer has viewed all the post: 9
+2026-09-04T15:16:17.436Z-Admin: Dawood Aheer =>  has viewed all the users : 12
+2026-09-04T15:19:53.820Z-admin:  Dawood Aheer: Shared post is: 6a8f16a792c88bb703256453
+2026-09-04T15:20:58.162Z-unshare post by:Dawood Aheer
